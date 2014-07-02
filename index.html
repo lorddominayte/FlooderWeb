@@ -37,6 +37,21 @@
 			</div>
 		</div>
 		<div style="padding-left:10%;padding-right:10%;padding-top:20px;">
+			<div class="alert alert-info" id="alert-1">
+				<strong>
+					Heads up!
+				</strong>
+				The site isn't done yet, so expect things to be missing and not working.
+				<a href="#" onclick="closealert('alert-1')" class="close">
+					&times;
+				</a>
+				<script>
+					function closealert(obj){
+						object = document.getElementById(obj);
+						object.style.display = "none";
+					}
+				</script>
+			</div>
 			<div class="hero-unit">
 				<h1>
 					Welcome to MineStruck
@@ -50,6 +65,50 @@
 					</a>
 				</p>
 			</div>
+			<div class="well">
+				<div>
+					<p>
+						<h3>
+							Example blog post
+						</h3>
+						<p style="width:400px;">
+							Blog posts are from the staff. They will display information about the server, and
+							updates to the site, the plugin and staff announcements.
+						</p>
+					</p>
+				</div>
+				<div>
+					<p>
+						<strong>
+							Posted by:
+						</strong>
+						&nbsp;A member of staff on 3rd July, 2014
+					</p>
+				</div>
+				<div style="border-top:1px solid #9f9f9f;">
+				</div>
+				<div>
+					<p>
+						<h3>
+							Website is live
+						</h3>
+						<p style="width:400px;">
+							Hello, players! We'd like to announce that our brand new site, designed by Glutweb,
+							is now live. It will eventually feature working forums and a Help section. We hope
+							you will enjoy this additional feature and that it will become useful to you all as
+							the server grows.
+						</p>
+					</p>
+				</div>
+				<div>
+					<p>
+						<strong>
+							Posted by:
+						</strong>
+						&nbsp;Jack on 3rd July, 2014
+					</p>
+				</div>
+			</div><!--/well-->
 		</div><!--/container-->
 	</body>
 </html>
